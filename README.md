@@ -41,9 +41,12 @@ Cambiar usuario, password y nombre de la base de datos en el archivo .env
 ```
 DATABASE_URL="postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public"
 ```
-
+## Nota: Usuario por defecto
+__usuario:__ test1@test.com
+__password:__ 12345678
 
 # Ayuda
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Prisma Documentation](https://www.prisma.io/docs/orm/reference/prisma-cli-reference) - learn about Prisma.
+- [Prisma Adapter Authjs](https://authjs.dev/getting-started/adapters/prisma?_gl=1*184q855*_gcl_au*OTExMTg2NjQ1LjE3NDYwMDE1OTMuMjAyODgyMzY4MC4xNzQ2MTc2MDY2LjE3NDYxNzYwNjY.) - learn how to connect your database to Prisma Adapter Authjs.
